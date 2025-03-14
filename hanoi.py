@@ -22,7 +22,7 @@ disk_colors = [(255, 100 + i * 30, 100) for i in range(10)]  # Gradasi warna unt
 font = pygame.font.Font(None, 36)
 
 # Data menara
-num_disks = 3
+num_disks = 5
 towers = {'A': list(range(num_disks, 0, -1)), 'B': [], 'C': []}
 peg_map = {'A': 0, 'B': 1, 'C': 2}
 moves = []
